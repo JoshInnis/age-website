@@ -19,6 +19,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: git config user.email "JoshInnis@gmail.com"
-    - run: git config user.name "Josh Innis"
+    - run: git config user.name "JoshInnis"
     - run: yarn install
     - run: npm run deploy
