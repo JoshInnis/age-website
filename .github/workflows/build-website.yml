@@ -22,3 +22,11 @@ jobs:
     - run: git config user.name "JoshInnis"
     - run: yarn install
     - run: npm run build
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: new-web
+        publish_dir: ./build/html
+        destination_dir: build
