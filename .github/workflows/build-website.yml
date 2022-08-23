@@ -6,8 +6,6 @@ name: build website
 on:
   push:
     branches: [ "new-web" ]
-  pull_request:
-    branches: [ "new-web" ]
 
 jobs:
   build:
