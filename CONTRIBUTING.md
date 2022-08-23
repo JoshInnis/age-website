@@ -6,7 +6,7 @@ please read the [code of conduct](CODE_OF_CONDUCT.md).
 ## Setup
 
 > Install yarn on your system: [https://yarnpkg.com/en/docs/install](https://yarnpkg.com/en/docs/install)
-
+\
 ### Install dependencies
 
 > Only required on the first run, subsequent runs can use `yarn` to both
@@ -19,7 +19,6 @@ $ yarn
 ```
 
 ## Available scripts
-
 
 ### `build`
 
