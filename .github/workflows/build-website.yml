@@ -21,4 +21,4 @@ jobs:
     - run: git config user.email "JoshInnis@gmail.com"
     - run: git config user.name "JoshInnis"
     - run: yarn install
-    - run: npm run deploy
+    - run: npm run build
